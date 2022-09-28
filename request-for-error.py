@@ -3,7 +3,7 @@
 from datetime import date
 import json
 import urllib.request, urllib.error, urllib.parse, urllib.response, requests
-urldefault = 'https://sheetdb.io/api/v1/r9fdgawufubel?sheet=url'
+urldefault = 'Insira uma planilha do sheetdb'
 response = urllib.request.urlopen(urldefault)
 dados = json.loads(response.read())
 for dado in dados:

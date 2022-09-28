@@ -19,3 +19,4 @@ for dado in dados:
     print(f"erro do site {requisicao} foi adicionado")
   else:
     print(f"{requisicao} não tem erros")
+#Esse código também é uma parceria com "Eduardo Pinheiro(https://github.com/odraudep)"
